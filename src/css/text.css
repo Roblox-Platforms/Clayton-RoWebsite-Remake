@@ -8,5 +8,9 @@ a {
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-	font-family: 'Inter Tight';
+	font-family: 'Ubuntu';
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	margin: 0
 }

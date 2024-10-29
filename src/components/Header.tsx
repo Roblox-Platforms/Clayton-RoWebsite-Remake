@@ -15,6 +15,7 @@ export default ({ location }: { location: string }) => {
 				zIndex: '30',
 				position: 'sticky',
 				top: '0',
+				backgroundColor: '#ffffff',
 			}}>
 			<div
 				style={{
@@ -22,8 +23,28 @@ export default ({ location }: { location: string }) => {
 					paddingRight: '25px',
 					paddingTop: '10px',
 					paddingBottom: '10px',
+					display: 'flex',
+					color: '#2e4d7e',
 				}}>
-				<Logo fill='#2e4d7e' style={{ height: '75px' }} />
+				<Logo
+					fill='#2e4d7e'
+					style={{ height: '75px', marginRight: '25px', cursor: 'pointer' }}
+					onClick={() =>
+						(window.location.href =
+							'https://www.roblox.com/groups/17077801/Clayton-Secondary-School#!/about')
+					}
+				/>
+				<div
+					style={{ display: 'flex', flexDirection: 'column', cursor: 'pointer' }}
+					onClick={() =>
+						(window.location.href =
+							'https://www.roblox.com/groups/17077801/Clayton-Secondary-School#!/about')
+					}>
+					<h1 style={{ fontWeight: '500', margin: '0px' }}>Clayton Secondary School</h1>
+					<h2 style={{ fontWeight: '500', fontSize: '23px', margin: '0px' }}>
+						Aspiration | Respect | Excellence
+					</h2>
+				</div>
 			</div>
 			<div
 				style={{

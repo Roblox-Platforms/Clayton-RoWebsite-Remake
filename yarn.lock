@@ -1593,7 +1593,8 @@ __metadata:
     "@types/node": "npm:^22.8.2"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
-    "@types/react-helmet": "npm:^6"
+    "@types/react-helmet": "npm:^6.1.11"
+    "@types/webpack-env": "npm:^1.18.5"
     browserify-fs: "npm:^1.0.0"
     path-browserify: "npm:^1.0.1"
     react: "npm:^18.3.1"
@@ -3121,7 +3122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-helmet@npm:^6":
+"@types/react-helmet@npm:^6.1.11":
   version: 6.1.11
   resolution: "@types/react-helmet@npm:6.1.11"
   dependencies:
@@ -3213,6 +3214,13 @@ __metadata:
   version: 2.0.7
   resolution: "@types/trusted-types@npm:2.0.7"
   checksum: 10c0/4c4855f10de7c6c135e0d32ce462419d8abbbc33713b31d294596c0cc34ae1fa6112a2f9da729c8f7a20707782b0d69da3b1f8df6645b0366d08825ca1522e0c
+  languageName: node
+  linkType: hard
+
+"@types/webpack-env@npm:^1.18.5":
+  version: 1.18.5
+  resolution: "@types/webpack-env@npm:1.18.5"
+  checksum: 10c0/b9e4876e8c7cae419896249f9ed795db283c008fe1d38efa679cbbf05194fc2eea2a5bfb4ff4393d109e3a9895416dadf5f3ddd5c22931b678062230f860454e
   languageName: node
   linkType: hard
 

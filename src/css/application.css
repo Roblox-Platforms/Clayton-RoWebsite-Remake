@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@import url('./fonts/Segoe\ UI/Font.css');
+@import url('./fonts/Studio\ GG/Font.css');
+@import url('./fonts/Newelt/Font.css');
+@import url('./fonts/Gotham/Font.css');
+@import url('./fonts/InterTight/Font.css');
+
+@import url('./textboxes.css');
+@import url('./content.css');
+@import url('./buttons.css');
+@import url('./text.css');
+@import url('./toastify.css');
+
+body {
+	margin: 0;
+	color: #000000;
+	font-size: 17px;
+	font-family: 'Ubuntu';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 966px) {
+	footer>.container {
+		display: grid;
+		place-content: center;
+	}
+}
+
+@media (min-width: 1440px) {
+	.container {
+		max-width: 1320px;
+	}
+}
+
+footer {
+	padding-top: 50px;
+	background-color: white;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	margin-top: auto;
+	border-top-color: '#1C092D';
+	border-top-width: '3px';
+	border-top-style: 'solid';
+}
+
+.row {
+	justify-content: space-evenly;
+}
+
+.iconExternalLink {
+	margin-left: 0.3rem;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #1b1b1d;
+	color: #e3e3e3;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 20rem 20rem 20rem;
+	grid-gap: 1rem;
+	grid-auto-flow: row;
+}
+
+.fade-in {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.fade-in-visible {
+	opacity: 1;
+}
+
+.fade-slide-up {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-slide-up.visible {
+	opacity: 1;
+	transform: translateY(0);
+}

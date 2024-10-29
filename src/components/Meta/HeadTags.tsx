@@ -6,16 +6,22 @@ export default () => (
 		<meta charSet='utf-8' />
 		<meta name='viewport' content='width=device-width, initial-scale=1' />
 		<meta httpEquiv='Content-Type' content='text/html; text/css; charset=UTF-8' />
-		<link rel='canonical' href='https://claytonsecondary.co.uk' />
+		<link rel='canonical' href='https://css-web.pages.dev' />
 		<meta httpEquiv='Expires' content='1y' />
 		<meta httpEquiv='Pragma' content='1y' />
 		<meta httpEquiv='Cache-Control' content='1y' />
 		<title>Clayton Secondary School - Aspiration, Respect, Excellence</title>
-		<meta name='description' content='Clayton Secondary School' />
+		<meta
+			name='description'
+			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities. We pride ourselves in the welcoming environment we provide to students, alongside the support we offer to those who may have a more difficult time in a traditional classroom setting.'
+		/>
 
 		{/* Social Media Head Meta */}
 		<meta property='og:title' content='Clayton Secondary School - Aspiration, Respect, Excellence' />
-		<meta name='og:description' content='Clayton Secondary School' />
+		<meta
+			name='og:description'
+			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities. We pride ourselves in the welcoming environment we provide to students, alongside the support we offer to those who may have a more difficult time in a traditional classroom setting.'
+		/>
 		<meta property='og:type' content='website' />
 		<meta property='og:site_name' content='Clayton Secondary School - Aspiration, Respect, Excellence' />
 		<meta property='og:url' content={window.location.href} />

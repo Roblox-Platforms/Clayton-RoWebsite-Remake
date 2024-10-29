@@ -13,14 +13,14 @@ export default () => (
 		<title>Clayton Secondary School - Aspiration, Respect, Excellence</title>
 		<meta
 			name='description'
-			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities. We pride ourselves in the welcoming environment we provide to students, alongside the support we offer to those who may have a more difficult time in a traditional classroom setting.'
+			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities.'
 		/>
 
 		{/* Social Media Head Meta */}
 		<meta property='og:title' content='Clayton Secondary School - Aspiration, Respect, Excellence' />
 		<meta
 			name='og:description'
-			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities. We pride ourselves in the welcoming environment we provide to students, alongside the support we offer to those who may have a more difficult time in a traditional classroom setting.'
+			content='Clayton Secondary School is a leading Ro-School, outperforming its fellow groups in almost all measurements, including teaching quality, pastoral provisions, session statistics, and campus modernity & facilities.'
 		/>
 		<meta property='og:type' content='website' />
 		<meta property='og:site_name' content='Clayton Secondary School - Aspiration, Respect, Excellence' />
